@@ -1,0 +1,111 @@
+2025-01-01T17:42:57.345-03:00  INFO 12766 --- [vocabulary] [main] c.b.vocabulary.VocabularyApplication     : Starting VocabularyApplication using Java 17.0.9 with PID 12766 (/home/breno/Documents/portfolio/vocabulary/target/classes started by breno in /home/breno/Documents/portfolio/vocabulary)
+2025-01-01T17:42:57.352-03:00  INFO 12766 --- [vocabulary] [main] c.b.vocabulary.VocabularyApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-01-01T17:42:58.155-03:00  INFO 12766 --- [vocabulary] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-01T17:42:58.163-03:00  INFO 12766 --- [vocabulary] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-01T17:42:58.163-03:00  INFO 12766 --- [vocabulary] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-01T17:42:58.193-03:00  INFO 12766 --- [vocabulary] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-01T17:42:58.193-03:00  INFO 12766 --- [vocabulary] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 644 ms
+2025-01-01T17:42:58.241-03:00  INFO 12766 --- [vocabulary] [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2025-01-01T17:42:58.249-03:00  INFO 12766 --- [vocabulary] [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-01-01T17:42:58.249-03:00  INFO 12766 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2025-01-01T17:42:58.250-03:00  INFO 12766 --- [vocabulary] [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2025-01-01T17:42:58.250-03:00  INFO 12766 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-01-01T17:42:58.250-03:00  INFO 12766 --- [vocabulary] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2025-01-01T17:42:58.251-03:00  INFO 12766 --- [vocabulary] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2025-01-01T17:42:58.251-03:00  INFO 12766 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : JobFactory set to: com.breno.vocabulary.config.QuartzConfig$AutowiringSpringBeanJobFactory@92f23b44
+2025-01-01T17:42:58.593-03:00  WARN 12766 --- [vocabulary] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'openAiChatModel' defined in class path resource [org/springframework/ai/autoconfigure/openai/OpenAiAutoConfiguration.class]: Failed to instantiate [org.springframework.ai.openai.OpenAiChatModel]: Factory method 'openAiChatModel' threw exception with message: OpenAI API key must be set. Use the connection property: spring.ai.openai.api-key or spring.ai.openai.chat.api-key property.
+2025-01-01T17:42:58.594-03:00  INFO 12766 --- [vocabulary] [main] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2025-01-01T17:42:58.594-03:00  INFO 12766 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2025-01-01T17:42:58.594-03:00  INFO 12766 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2025-01-01T17:42:58.594-03:00  INFO 12766 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2025-01-01T17:42:58.597-03:00  INFO 12766 --- [vocabulary] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-01-01T17:42:58.621-03:00  INFO 12766 --- [vocabulary] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-01-01T17:42:58.634-03:00 ERROR 12766 --- [vocabulary] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'openAiChatModel' defined in class path resource [org/springframework/ai/autoconfigure/openai/OpenAiAutoConfiguration.class]: Failed to instantiate [org.springframework.ai.openai.OpenAiChatModel]: Factory method 'openAiChatModel' threw exception with message: OpenAI API key must be set. Use the connection property: spring.ai.openai.api-key or spring.ai.openai.chat.api-key property.
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1357) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1187) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:289) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1122) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1093) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1030) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.1.jar:3.4.1]
+	at com.breno.vocabulary.VocabularyApplication.main(VocabularyApplication.java:10) ~[classes/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.ai.openai.OpenAiChatModel]: Factory method 'openAiChatModel' threw exception with message: OpenAI API key must be set. Use the connection property: spring.ai.openai.api-key or spring.ai.openai.chat.api-key property.
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:199) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:88) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:168) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-6.2.1.jar:6.2.1]
+	... 21 common frames omitted
+Caused by: java.lang.IllegalArgumentException: OpenAI API key must be set. Use the connection property: spring.ai.openai.api-key or spring.ai.openai.chat.api-key property.
+	at org.springframework.util.Assert.hasText(Assert.java:253) ~[spring-core-6.2.1.jar:6.2.1]
+	at org.springframework.ai.autoconfigure.openai.OpenAiAutoConfiguration.resolveConnectionProperties(OpenAiAutoConfiguration.java:102) ~[spring-ai-spring-boot-autoconfigure-1.0.0-M4.jar:1.0.0-M4]
+	at org.springframework.ai.autoconfigure.openai.OpenAiAutoConfiguration.openAiApi(OpenAiAutoConfiguration.java:159) ~[spring-ai-spring-boot-autoconfigure-1.0.0-M4.jar:1.0.0-M4]
+	at org.springframework.ai.autoconfigure.openai.OpenAiAutoConfiguration.openAiChatModel(OpenAiAutoConfiguration.java:120) ~[spring-ai-spring-boot-autoconfigure-1.0.0-M4.jar:1.0.0-M4]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.2.1.jar:6.2.1]
+	... 24 common frames omitted
+
+2025-01-01T17:45:34.817-03:00  INFO 12979 --- [vocabulary] [main] c.b.vocabulary.VocabularyApplication     : Starting VocabularyApplication using Java 17.0.9 with PID 12979 (/home/breno/Documents/portfolio/vocabulary/target/classes started by breno in /home/breno/Documents/portfolio/vocabulary)
+2025-01-01T17:45:34.823-03:00  INFO 12979 --- [vocabulary] [main] c.b.vocabulary.VocabularyApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-01-01T17:45:35.419-03:00  INFO 12979 --- [vocabulary] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-01T17:45:35.425-03:00  INFO 12979 --- [vocabulary] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-01T17:45:35.425-03:00  INFO 12979 --- [vocabulary] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-01T17:45:35.454-03:00  INFO 12979 --- [vocabulary] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-01T17:45:35.455-03:00  INFO 12979 --- [vocabulary] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 575 ms
+2025-01-01T17:45:35.498-03:00  INFO 12979 --- [vocabulary] [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2025-01-01T17:45:35.503-03:00  INFO 12979 --- [vocabulary] [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-01-01T17:45:35.503-03:00  INFO 12979 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2025-01-01T17:45:35.503-03:00  INFO 12979 --- [vocabulary] [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2025-01-01T17:45:35.504-03:00  INFO 12979 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-01-01T17:45:35.504-03:00  INFO 12979 --- [vocabulary] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2025-01-01T17:45:35.504-03:00  INFO 12979 --- [vocabulary] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2025-01-01T17:45:35.504-03:00  INFO 12979 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : JobFactory set to: com.breno.vocabulary.config.QuartzConfig$AutowiringSpringBeanJobFactory@a4ec37f1
+2025-01-01T17:45:35.677-03:00  INFO 12979 --- [vocabulary] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-01T17:45:35.679-03:00  INFO 12979 --- [vocabulary] [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2025-01-01T17:45:35.679-03:00  INFO 12979 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2025-01-01T17:45:35.689-03:00  INFO 12979 --- [vocabulary] [main] c.b.vocabulary.VocabularyApplication     : Started VocabularyApplication in 1.323 seconds (process running for 1.574)
+2025-01-01T17:46:00.006-03:00  INFO 12979 --- [vocabulary] [schedulerFactoryBean_Worker-1] com.breno.vocabulary.quartz.ExecuteJob   : Starting job execution
+2025-01-01T17:46:00.007-03:00  INFO 12979 --- [vocabulary] [schedulerFactoryBean_Worker-1] com.breno.vocabulary.quartz.ExecuteJob   : Job executed successfully
+2025-01-01T17:47:00.001-03:00  INFO 12979 --- [vocabulary] [schedulerFactoryBean_Worker-2] com.breno.vocabulary.quartz.ExecuteJob   : Starting job execution
+2025-01-01T17:47:00.001-03:00  INFO 12979 --- [vocabulary] [schedulerFactoryBean_Worker-2] com.breno.vocabulary.quartz.ExecuteJob   : Job executed successfully
+2025-01-01T17:47:23.397-03:00  INFO 12979 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2025-01-01T17:47:23.397-03:00  INFO 12979 --- [vocabulary] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-01T17:47:23.400-03:00  INFO 12979 --- [vocabulary] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-01T17:47:23.402-03:00  INFO 12979 --- [vocabulary] [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2025-01-01T17:47:23.402-03:00  INFO 12979 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2025-01-01T17:47:23.402-03:00  INFO 12979 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2025-01-01T17:47:23.402-03:00  INFO 12979 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
