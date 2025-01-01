@@ -1,5 +1,6 @@
 package com.breno.vocabulary.quartz;
 
+import com.breno.vocabulary.Service.OpenAiChatService;
 import org.quartz.Job;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
@@ -15,8 +16,12 @@ public class ExecuteJob implements Job {
 
     private static final Logger logger = LoggerFactory.getLogger(ExecuteJob.class);
 
+    private final OpenAiChatService openAiChatService;
+
     @Autowired
-    public ExecuteJob(){}
+    public ExecuteJob(OpenAiChatService openAiChatService){
+        this.openAiChatService = openAiChatService;
+    }
 
     @Override
     public void execute(JobExecutionContext context) throws JobExecutionException {
@@ -24,7 +29,7 @@ public class ExecuteJob implements Job {
 
             logger.info("Starting job execution");
 
-            System.out.println("job sendo executado a cada 1 minuto" + LocalDate.now());
+            System.out.println(openAiChatService.getVocabulary());
 
             logger.info("Job executed successfully");
 

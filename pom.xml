@@ -45,12 +45,12 @@
 		</dependency>
 
 
-		<!-- chatgpt
+		<!-- chatgpt -->
 		<dependency>
 			<groupId>org.springframework.ai</groupId>
 			<artifactId>spring-ai-openai-spring-boot-starter</artifactId>
 		</dependency>
-		-->
+
 
 		<!-- Quartz Scheduler -->
 		<dependency>
