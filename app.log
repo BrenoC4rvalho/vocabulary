@@ -1,42 +1,15 @@
-2025-01-01T20:29:39.719-03:00  INFO 19551 --- [vocabulary] [main] c.b.vocabulary.VocabularyApplication     : Starting VocabularyApplication using Java 17.0.9 with PID 19551 (/home/breno/Documents/portfolio/vocabulary/target/classes started by breno in /home/breno/Documents/portfolio/vocabulary)
-2025-01-01T20:29:39.724-03:00  INFO 19551 --- [vocabulary] [main] c.b.vocabulary.VocabularyApplication     : No active profile set, falling back to 1 default profile: "default"
-2025-01-01T20:29:40.535-03:00  INFO 19551 --- [vocabulary] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-01-01T20:29:40.542-03:00  INFO 19551 --- [vocabulary] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-01-01T20:29:40.542-03:00  INFO 19551 --- [vocabulary] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-01T20:29:40.582-03:00  INFO 19551 --- [vocabulary] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-01-01T20:29:40.582-03:00  INFO 19551 --- [vocabulary] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 667 ms
-2025-01-01T20:29:40.639-03:00  WARN 19551 --- [vocabulary] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'openAiChatService' defined in file [/home/breno/Documents/portfolio/vocabulary/target/classes/com/breno/vocabulary/Service/OpenAiChatService.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'org.springframework.ai.chat.client.ChatClient' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
-2025-01-01T20:29:40.642-03:00  INFO 19551 --- [vocabulary] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2025-01-01T20:29:40.657-03:00  INFO 19551 --- [vocabulary] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2025-01-01T20:29:40.669-03:00 ERROR 19551 --- [vocabulary] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Parameter 0 of constructor in com.breno.vocabulary.Service.OpenAiChatService required a bean of type 'org.springframework.ai.chat.client.ChatClient' that could not be found.
-
-
-Action:
-
-Consider defining a bean of type 'org.springframework.ai.chat.client.ChatClient' in your configuration.
-
-2025-01-01T20:30:36.436-03:00  INFO 19658 --- [vocabulary] [main] c.b.vocabulary.VocabularyApplication     : Starting VocabularyApplication using Java 17.0.9 with PID 19658 (/home/breno/Documents/portfolio/vocabulary/target/classes started by breno in /home/breno/Documents/portfolio/vocabulary)
-2025-01-01T20:30:36.441-03:00  INFO 19658 --- [vocabulary] [main] c.b.vocabulary.VocabularyApplication     : No active profile set, falling back to 1 default profile: "default"
-2025-01-01T20:30:37.246-03:00  INFO 19658 --- [vocabulary] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-01-01T20:30:37.264-03:00  INFO 19658 --- [vocabulary] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-01-01T20:30:37.265-03:00  INFO 19658 --- [vocabulary] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-01T20:30:37.296-03:00  INFO 19658 --- [vocabulary] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-01-01T20:30:37.296-03:00  INFO 19658 --- [vocabulary] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 663 ms
-2025-01-01T20:30:37.567-03:00  INFO 19658 --- [vocabulary] [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
-2025-01-01T20:30:37.574-03:00  INFO 19658 --- [vocabulary] [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-2025-01-01T20:30:37.574-03:00  INFO 19658 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
-2025-01-01T20:30:37.574-03:00  INFO 19658 --- [vocabulary] [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
-2025-01-01T20:30:37.575-03:00  INFO 19658 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+2025-01-02T19:24:56.515-03:00  INFO 8038 --- [vocabulary] [main] c.b.vocabulary.VocabularyApplication     : Starting VocabularyApplication using Java 17.0.9 with PID 8038 (/home/breno/Documents/portfolio/vocabulary/target/classes started by breno in /home/breno/Documents/portfolio/vocabulary)
+2025-01-02T19:24:56.523-03:00  INFO 8038 --- [vocabulary] [main] c.b.vocabulary.VocabularyApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-01-02T19:24:57.461-03:00  INFO 8038 --- [vocabulary] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-02T19:24:57.471-03:00  INFO 8038 --- [vocabulary] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-02T19:24:57.471-03:00  INFO 8038 --- [vocabulary] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02T19:24:57.514-03:00  INFO 8038 --- [vocabulary] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-02T19:24:57.515-03:00  INFO 8038 --- [vocabulary] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 784 ms
+2025-01-02T19:24:57.829-03:00  INFO 8038 --- [vocabulary] [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2025-01-02T19:24:57.835-03:00  INFO 8038 --- [vocabulary] [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-01-02T19:24:57.836-03:00  INFO 8038 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2025-01-02T19:24:57.836-03:00  INFO 8038 --- [vocabulary] [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2025-01-02T19:24:57.836-03:00  INFO 8038 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -44,15 +17,15 @@ Consider defining a bean of type 'org.springframework.ai.chat.client.ChatClient'
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-2025-01-01T20:30:37.575-03:00  INFO 19658 --- [vocabulary] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
-2025-01-01T20:30:37.575-03:00  INFO 19658 --- [vocabulary] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
-2025-01-01T20:30:37.575-03:00  INFO 19658 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : JobFactory set to: com.breno.vocabulary.config.QuartzConfig$AutowiringSpringBeanJobFactory@9815ad6e
-2025-01-01T20:30:37.830-03:00  INFO 19658 --- [vocabulary] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-01-01T20:30:37.831-03:00  INFO 19658 --- [vocabulary] [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
-2025-01-01T20:30:37.831-03:00  INFO 19658 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
-2025-01-01T20:30:37.848-03:00  INFO 19658 --- [vocabulary] [main] c.b.vocabulary.VocabularyApplication     : Started VocabularyApplication in 1.891 seconds (process running for 2.179)
-2025-01-01T20:31:00.004-03:00  INFO 19658 --- [vocabulary] [schedulerFactoryBean_Worker-1] com.breno.vocabulary.quartz.ExecuteJob   : Starting job execution
-2025-01-01T20:31:00.692-03:00  WARN 19658 --- [vocabulary] [schedulerFactoryBean_Worker-1] o.s.a.a.r.SpringAiRetryAutoConfiguration : Retry error. Retry count:1
+2025-01-02T19:24:57.836-03:00  INFO 8038 --- [vocabulary] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2025-01-02T19:24:57.836-03:00  INFO 8038 --- [vocabulary] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2025-01-02T19:24:57.836-03:00  INFO 8038 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : JobFactory set to: com.breno.vocabulary.config.QuartzConfig$AutowiringSpringBeanJobFactory@785e832e
+2025-01-02T19:24:58.376-03:00  INFO 8038 --- [vocabulary] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-02T19:24:58.377-03:00  INFO 8038 --- [vocabulary] [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2025-01-02T19:24:58.377-03:00  INFO 8038 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2025-01-02T19:24:58.393-03:00  INFO 8038 --- [vocabulary] [main] c.b.vocabulary.VocabularyApplication     : Started VocabularyApplication in 2.406 seconds (process running for 2.772)
+2025-01-02T19:25:00.005-03:00  INFO 8038 --- [vocabulary] [schedulerFactoryBean_Worker-1] com.breno.vocabulary.quartz.ExecuteJob   : Starting job execution
+2025-01-02T19:25:01.055-03:00  WARN 8038 --- [vocabulary] [schedulerFactoryBean_Worker-1] o.s.a.a.r.SpringAiRetryAutoConfiguration : Retry error. Retry count:1
 
 org.springframework.ai.retry.NonTransientAiException: 404 - {
     "error": {
@@ -95,12 +68,12 @@ org.springframework.ai.retry.NonTransientAiException: 404 - {
 	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.doGetObservableChatResponse(DefaultChatClient.java:477) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
 	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.doGetChatResponse(DefaultChatClient.java:461) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
 	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.content(DefaultChatClient.java:511) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at com.breno.vocabulary.Service.OpenAiChatService.getVocabulary(OpenAiChatService.java:20) ~[classes/:na]
+	at com.breno.vocabulary.Service.OpenAiChatService.getVocabulary(OpenAiChatService.java:19) ~[classes/:na]
 	at com.breno.vocabulary.quartz.ExecuteJob.execute(ExecuteJob.java:32) ~[classes/:na]
 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) ~[quartz-2.3.2.jar:na]
 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) ~[quartz-2.3.2.jar:na]
 
-2025-01-01T20:31:00.694-03:00 ERROR 19658 --- [vocabulary] [schedulerFactoryBean_Worker-1] com.breno.vocabulary.quartz.ExecuteJob   : Error during job execution
+2025-01-02T19:25:01.058-03:00 ERROR 8038 --- [vocabulary] [schedulerFactoryBean_Worker-1] com.breno.vocabulary.quartz.ExecuteJob   : Error during job execution
 
 org.springframework.ai.retry.NonTransientAiException: 404 - {
     "error": {
@@ -143,30 +116,30 @@ org.springframework.ai.retry.NonTransientAiException: 404 - {
 	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.doGetObservableChatResponse(DefaultChatClient.java:477) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
 	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.doGetChatResponse(DefaultChatClient.java:461) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
 	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.content(DefaultChatClient.java:511) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at com.breno.vocabulary.Service.OpenAiChatService.getVocabulary(OpenAiChatService.java:20) ~[classes/:na]
+	at com.breno.vocabulary.Service.OpenAiChatService.getVocabulary(OpenAiChatService.java:19) ~[classes/:na]
 	at com.breno.vocabulary.quartz.ExecuteJob.execute(ExecuteJob.java:32) ~[classes/:na]
 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) ~[quartz-2.3.2.jar:na]
 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) ~[quartz-2.3.2.jar:na]
 
-2025-01-01T20:31:20.306-03:00  INFO 19658 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
-2025-01-01T20:31:20.306-03:00  INFO 19658 --- [vocabulary] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-01T20:31:20.308-03:00  INFO 19658 --- [vocabulary] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-01-01T20:31:20.310-03:00  INFO 19658 --- [vocabulary] [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
-2025-01-01T20:31:20.310-03:00  INFO 19658 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
-2025-01-01T20:31:20.310-03:00  INFO 19658 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
-2025-01-01T20:31:20.311-03:00  INFO 19658 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
-2025-01-01T20:36:14.799-03:00  INFO 20086 --- [vocabulary] [main] c.b.vocabulary.VocabularyApplication     : Starting VocabularyApplication using Java 17.0.9 with PID 20086 (/home/breno/Documents/portfolio/vocabulary/target/classes started by breno in /home/breno/Documents/portfolio/vocabulary)
-2025-01-01T20:36:14.802-03:00  INFO 20086 --- [vocabulary] [main] c.b.vocabulary.VocabularyApplication     : No active profile set, falling back to 1 default profile: "default"
-2025-01-01T20:36:15.600-03:00  INFO 20086 --- [vocabulary] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-01-01T20:36:15.606-03:00  INFO 20086 --- [vocabulary] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-01-01T20:36:15.607-03:00  INFO 20086 --- [vocabulary] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-01T20:36:15.638-03:00  INFO 20086 --- [vocabulary] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-01-01T20:36:15.639-03:00  INFO 20086 --- [vocabulary] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 656 ms
-2025-01-01T20:36:15.898-03:00  INFO 20086 --- [vocabulary] [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
-2025-01-01T20:36:15.902-03:00  INFO 20086 --- [vocabulary] [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-2025-01-01T20:36:15.903-03:00  INFO 20086 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
-2025-01-01T20:36:15.903-03:00  INFO 20086 --- [vocabulary] [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
-2025-01-01T20:36:15.903-03:00  INFO 20086 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+2025-01-02T19:25:07.163-03:00  INFO 8038 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2025-01-02T19:25:07.164-03:00  INFO 8038 --- [vocabulary] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02T19:25:07.165-03:00  INFO 8038 --- [vocabulary] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-02T19:25:07.167-03:00  INFO 8038 --- [vocabulary] [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2025-01-02T19:25:07.167-03:00  INFO 8038 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2025-01-02T19:25:07.167-03:00  INFO 8038 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2025-01-02T19:25:07.167-03:00  INFO 8038 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2025-01-02T19:46:39.011-03:00  INFO 9340 --- [vocabulary] [main] c.b.vocabulary.VocabularyApplication     : Starting VocabularyApplication using Java 17.0.9 with PID 9340 (/home/breno/Documents/portfolio/vocabulary/target/classes started by breno in /home/breno/Documents/portfolio/vocabulary)
+2025-01-02T19:46:39.015-03:00  INFO 9340 --- [vocabulary] [main] c.b.vocabulary.VocabularyApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-01-02T19:46:39.803-03:00  INFO 9340 --- [vocabulary] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-02T19:46:39.810-03:00  INFO 9340 --- [vocabulary] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-02T19:46:39.810-03:00  INFO 9340 --- [vocabulary] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02T19:46:39.850-03:00  INFO 9340 --- [vocabulary] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-02T19:46:39.850-03:00  INFO 9340 --- [vocabulary] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 645 ms
+2025-01-02T19:46:40.093-03:00  INFO 9340 --- [vocabulary] [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2025-01-02T19:46:40.099-03:00  INFO 9340 --- [vocabulary] [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-01-02T19:46:40.099-03:00  INFO 9340 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2025-01-02T19:46:40.099-03:00  INFO 9340 --- [vocabulary] [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2025-01-02T19:46:40.100-03:00  INFO 9340 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -174,22 +147,22 @@ org.springframework.ai.retry.NonTransientAiException: 404 - {
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-2025-01-01T20:36:15.903-03:00  INFO 20086 --- [vocabulary] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
-2025-01-01T20:36:15.904-03:00  INFO 20086 --- [vocabulary] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
-2025-01-01T20:36:15.904-03:00  INFO 20086 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : JobFactory set to: com.breno.vocabulary.config.QuartzConfig$AutowiringSpringBeanJobFactory@ad35171c
-2025-01-01T20:36:16.120-03:00  INFO 20086 --- [vocabulary] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-01-01T20:36:16.121-03:00  INFO 20086 --- [vocabulary] [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
-2025-01-01T20:36:16.122-03:00  INFO 20086 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
-2025-01-01T20:36:16.140-03:00  INFO 20086 --- [vocabulary] [main] c.b.vocabulary.VocabularyApplication     : Started VocabularyApplication in 1.791 seconds (process running for 2.084)
-2025-01-01T20:37:00.005-03:00  INFO 20086 --- [vocabulary] [schedulerFactoryBean_Worker-1] com.breno.vocabulary.quartz.ExecuteJob   : Starting job execution
-2025-01-01T20:37:01.013-03:00  WARN 20086 --- [vocabulary] [schedulerFactoryBean_Worker-1] o.s.a.a.r.SpringAiRetryAutoConfiguration : Retry error. Retry count:1
+2025-01-02T19:46:40.100-03:00  INFO 9340 --- [vocabulary] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2025-01-02T19:46:40.100-03:00  INFO 9340 --- [vocabulary] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2025-01-02T19:46:40.100-03:00  INFO 9340 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : JobFactory set to: com.breno.vocabulary.config.QuartzConfig$AutowiringSpringBeanJobFactory@198b47b8
+2025-01-02T19:46:40.293-03:00  INFO 9340 --- [vocabulary] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-02T19:46:40.293-03:00  INFO 9340 --- [vocabulary] [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2025-01-02T19:46:40.294-03:00  INFO 9340 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2025-01-02T19:46:40.309-03:00  INFO 9340 --- [vocabulary] [main] c.b.vocabulary.VocabularyApplication     : Started VocabularyApplication in 1.753 seconds (process running for 2.035)
+2025-01-02T19:47:00.005-03:00  INFO 9340 --- [vocabulary] [schedulerFactoryBean_Worker-1] com.breno.vocabulary.quartz.ExecuteJob   : Starting job execution
+2025-01-02T19:47:01.041-03:00  WARN 9340 --- [vocabulary] [schedulerFactoryBean_Worker-1] o.s.a.a.r.SpringAiRetryAutoConfiguration : Retry error. Retry count:1
 
-org.springframework.ai.retry.NonTransientAiException: 401 - {
+org.springframework.ai.retry.NonTransientAiException: 429 - {
     "error": {
-        "message": "Incorrect API key provided: sk-proj-******************************************************************************************************************************************************LFVu. You can find your API key at https://platform.openai.com/account/api-keys.",
-        "type": "invalid_request_error",
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
         "param": null,
-        "code": "invalid_api_key"
+        "code": "insufficient_quota"
     }
 }
 
@@ -215,29 +188,19 @@ org.springframework.ai.retry.NonTransientAiException: 401 - {
 	at org.springframework.ai.openai.OpenAiChatModel.lambda$call$3(OpenAiChatModel.java:228) ~[spring-ai-openai-1.0.0-M4.jar:1.0.0-M4]
 	at io.micrometer.observation.Observation.observe(Observation.java:564) ~[micrometer-observation-1.14.2.jar:1.14.2]
 	at org.springframework.ai.openai.OpenAiChatModel.call(OpenAiChatModel.java:225) ~[spring-ai-openai-1.0.0-M4.jar:1.0.0-M4]
-	at org.springframework.ai.chat.client.DefaultChatClient$DefaultChatClientRequestSpec$1.aroundCall(DefaultChatClient.java:675) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at org.springframework.ai.chat.client.advisor.DefaultAroundAdvisorChain.lambda$nextAroundCall$1(DefaultAroundAdvisorChain.java:98) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at io.micrometer.observation.Observation.observe(Observation.java:564) ~[micrometer-observation-1.14.2.jar:1.14.2]
-	at org.springframework.ai.chat.client.advisor.DefaultAroundAdvisorChain.nextAroundCall(DefaultAroundAdvisorChain.java:98) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.doGetChatResponse(DefaultChatClient.java:488) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.lambda$doGetObservableChatResponse$1(DefaultChatClient.java:477) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at io.micrometer.observation.Observation.observe(Observation.java:564) ~[micrometer-observation-1.14.2.jar:1.14.2]
-	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.doGetObservableChatResponse(DefaultChatClient.java:477) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.doGetChatResponse(DefaultChatClient.java:461) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.content(DefaultChatClient.java:511) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at com.breno.vocabulary.Service.OpenAiChatService.getVocabulary(OpenAiChatService.java:20) ~[classes/:na]
+	at com.breno.vocabulary.Service.OpenAiChatService.getVocabulary(OpenAiChatService.java:19) ~[classes/:na]
 	at com.breno.vocabulary.quartz.ExecuteJob.execute(ExecuteJob.java:32) ~[classes/:na]
 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) ~[quartz-2.3.2.jar:na]
 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) ~[quartz-2.3.2.jar:na]
 
-2025-01-01T20:37:01.015-03:00 ERROR 20086 --- [vocabulary] [schedulerFactoryBean_Worker-1] com.breno.vocabulary.quartz.ExecuteJob   : Error during job execution
+2025-01-02T19:47:01.043-03:00 ERROR 9340 --- [vocabulary] [schedulerFactoryBean_Worker-1] com.breno.vocabulary.quartz.ExecuteJob   : Error during job execution
 
-org.springframework.ai.retry.NonTransientAiException: 401 - {
+org.springframework.ai.retry.NonTransientAiException: 429 - {
     "error": {
-        "message": "Incorrect API key provided: sk-proj-******************************************************************************************************************************************************LFVu. You can find your API key at https://platform.openai.com/account/api-keys.",
-        "type": "invalid_request_error",
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
         "param": null,
-        "code": "invalid_api_key"
+        "code": "insufficient_quota"
     }
 }
 
@@ -263,40 +226,30 @@ org.springframework.ai.retry.NonTransientAiException: 401 - {
 	at org.springframework.ai.openai.OpenAiChatModel.lambda$call$3(OpenAiChatModel.java:228) ~[spring-ai-openai-1.0.0-M4.jar:1.0.0-M4]
 	at io.micrometer.observation.Observation.observe(Observation.java:564) ~[micrometer-observation-1.14.2.jar:1.14.2]
 	at org.springframework.ai.openai.OpenAiChatModel.call(OpenAiChatModel.java:225) ~[spring-ai-openai-1.0.0-M4.jar:1.0.0-M4]
-	at org.springframework.ai.chat.client.DefaultChatClient$DefaultChatClientRequestSpec$1.aroundCall(DefaultChatClient.java:675) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at org.springframework.ai.chat.client.advisor.DefaultAroundAdvisorChain.lambda$nextAroundCall$1(DefaultAroundAdvisorChain.java:98) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at io.micrometer.observation.Observation.observe(Observation.java:564) ~[micrometer-observation-1.14.2.jar:1.14.2]
-	at org.springframework.ai.chat.client.advisor.DefaultAroundAdvisorChain.nextAroundCall(DefaultAroundAdvisorChain.java:98) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.doGetChatResponse(DefaultChatClient.java:488) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.lambda$doGetObservableChatResponse$1(DefaultChatClient.java:477) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at io.micrometer.observation.Observation.observe(Observation.java:564) ~[micrometer-observation-1.14.2.jar:1.14.2]
-	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.doGetObservableChatResponse(DefaultChatClient.java:477) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.doGetChatResponse(DefaultChatClient.java:461) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.content(DefaultChatClient.java:511) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at com.breno.vocabulary.Service.OpenAiChatService.getVocabulary(OpenAiChatService.java:20) ~[classes/:na]
+	at com.breno.vocabulary.Service.OpenAiChatService.getVocabulary(OpenAiChatService.java:19) ~[classes/:na]
 	at com.breno.vocabulary.quartz.ExecuteJob.execute(ExecuteJob.java:32) ~[classes/:na]
 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) ~[quartz-2.3.2.jar:na]
 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) ~[quartz-2.3.2.jar:na]
 
-2025-01-01T20:37:15.784-03:00  INFO 20086 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
-2025-01-01T20:37:15.784-03:00  INFO 20086 --- [vocabulary] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-01T20:37:15.787-03:00  INFO 20086 --- [vocabulary] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-01-01T20:37:15.788-03:00  INFO 20086 --- [vocabulary] [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
-2025-01-01T20:37:15.789-03:00  INFO 20086 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
-2025-01-01T20:37:15.789-03:00  INFO 20086 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
-2025-01-01T20:37:15.789-03:00  INFO 20086 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
-2025-01-01T20:37:16.931-03:00  INFO 20232 --- [vocabulary] [main] c.b.vocabulary.VocabularyApplication     : Starting VocabularyApplication using Java 17.0.9 with PID 20232 (/home/breno/Documents/portfolio/vocabulary/target/classes started by breno in /home/breno/Documents/portfolio/vocabulary)
-2025-01-01T20:37:16.933-03:00  INFO 20232 --- [vocabulary] [main] c.b.vocabulary.VocabularyApplication     : No active profile set, falling back to 1 default profile: "default"
-2025-01-01T20:37:17.740-03:00  INFO 20232 --- [vocabulary] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-01-01T20:37:17.747-03:00  INFO 20232 --- [vocabulary] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-01-01T20:37:17.747-03:00  INFO 20232 --- [vocabulary] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-01T20:37:17.777-03:00  INFO 20232 --- [vocabulary] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-01-01T20:37:17.777-03:00  INFO 20232 --- [vocabulary] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 665 ms
-2025-01-01T20:37:18.029-03:00  INFO 20232 --- [vocabulary] [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
-2025-01-01T20:37:18.035-03:00  INFO 20232 --- [vocabulary] [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-2025-01-01T20:37:18.035-03:00  INFO 20232 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
-2025-01-01T20:37:18.035-03:00  INFO 20232 --- [vocabulary] [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
-2025-01-01T20:37:18.036-03:00  INFO 20232 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+2025-01-02T19:47:33.348-03:00  INFO 9340 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2025-01-02T19:47:33.349-03:00  INFO 9340 --- [vocabulary] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02T19:47:33.351-03:00  INFO 9340 --- [vocabulary] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-02T19:47:33.353-03:00  INFO 9340 --- [vocabulary] [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2025-01-02T19:47:33.353-03:00  INFO 9340 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2025-01-02T19:47:33.353-03:00  INFO 9340 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2025-01-02T19:47:33.353-03:00  INFO 9340 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2025-01-02T19:48:27.403-03:00  INFO 9596 --- [vocabulary] [main] c.b.vocabulary.VocabularyApplication     : Starting VocabularyApplication using Java 17.0.9 with PID 9596 (/home/breno/Documents/portfolio/vocabulary/target/classes started by breno in /home/breno/Documents/portfolio/vocabulary)
+2025-01-02T19:48:27.407-03:00  INFO 9596 --- [vocabulary] [main] c.b.vocabulary.VocabularyApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-01-02T19:48:28.213-03:00  INFO 9596 --- [vocabulary] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-02T19:48:28.221-03:00  INFO 9596 --- [vocabulary] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-02T19:48:28.222-03:00  INFO 9596 --- [vocabulary] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02T19:48:28.253-03:00  INFO 9596 --- [vocabulary] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-02T19:48:28.254-03:00  INFO 9596 --- [vocabulary] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 656 ms
+2025-01-02T19:48:28.513-03:00  INFO 9596 --- [vocabulary] [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2025-01-02T19:48:28.518-03:00  INFO 9596 --- [vocabulary] [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-01-02T19:48:28.518-03:00  INFO 9596 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2025-01-02T19:48:28.518-03:00  INFO 9596 --- [vocabulary] [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2025-01-02T19:48:28.519-03:00  INFO 9596 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -304,22 +257,22 @@ org.springframework.ai.retry.NonTransientAiException: 401 - {
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-2025-01-01T20:37:18.036-03:00  INFO 20232 --- [vocabulary] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
-2025-01-01T20:37:18.036-03:00  INFO 20232 --- [vocabulary] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
-2025-01-01T20:37:18.036-03:00  INFO 20232 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : JobFactory set to: com.breno.vocabulary.config.QuartzConfig$AutowiringSpringBeanJobFactory@418540dd
-2025-01-01T20:37:18.231-03:00  INFO 20232 --- [vocabulary] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-01-01T20:37:18.232-03:00  INFO 20232 --- [vocabulary] [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
-2025-01-01T20:37:18.232-03:00  INFO 20232 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
-2025-01-01T20:37:18.247-03:00  INFO 20232 --- [vocabulary] [main] c.b.vocabulary.VocabularyApplication     : Started VocabularyApplication in 1.772 seconds (process running for 2.067)
-2025-01-01T20:38:00.006-03:00  INFO 20232 --- [vocabulary] [schedulerFactoryBean_Worker-1] com.breno.vocabulary.quartz.ExecuteJob   : Starting job execution
-2025-01-01T20:38:00.926-03:00  WARN 20232 --- [vocabulary] [schedulerFactoryBean_Worker-1] o.s.a.a.r.SpringAiRetryAutoConfiguration : Retry error. Retry count:1
+2025-01-02T19:48:28.519-03:00  INFO 9596 --- [vocabulary] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2025-01-02T19:48:28.519-03:00  INFO 9596 --- [vocabulary] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2025-01-02T19:48:28.519-03:00  INFO 9596 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : JobFactory set to: com.breno.vocabulary.config.QuartzConfig$AutowiringSpringBeanJobFactory@b375bd29
+2025-01-02T19:48:28.879-03:00  INFO 9596 --- [vocabulary] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-02T19:48:28.880-03:00  INFO 9596 --- [vocabulary] [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2025-01-02T19:48:28.880-03:00  INFO 9596 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2025-01-02T19:48:28.893-03:00  INFO 9596 --- [vocabulary] [main] c.b.vocabulary.VocabularyApplication     : Started VocabularyApplication in 1.979 seconds (process running for 2.266)
+2025-01-02T19:49:00.005-03:00  INFO 9596 --- [vocabulary] [schedulerFactoryBean_Worker-1] com.breno.vocabulary.quartz.ExecuteJob   : Starting job execution
+2025-01-02T19:49:01.326-03:00  WARN 9596 --- [vocabulary] [schedulerFactoryBean_Worker-1] o.s.a.a.r.SpringAiRetryAutoConfiguration : Retry error. Retry count:1
 
-org.springframework.ai.retry.NonTransientAiException: 404 - {
+org.springframework.ai.retry.NonTransientAiException: 429 - {
     "error": {
-        "message": "The model `gpt-4o` does not exist or you do not have access to it.",
-        "type": "invalid_request_error",
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
         "param": null,
-        "code": "model_not_found"
+        "code": "insufficient_quota"
     }
 }
 
@@ -345,29 +298,19 @@ org.springframework.ai.retry.NonTransientAiException: 404 - {
 	at org.springframework.ai.openai.OpenAiChatModel.lambda$call$3(OpenAiChatModel.java:228) ~[spring-ai-openai-1.0.0-M4.jar:1.0.0-M4]
 	at io.micrometer.observation.Observation.observe(Observation.java:564) ~[micrometer-observation-1.14.2.jar:1.14.2]
 	at org.springframework.ai.openai.OpenAiChatModel.call(OpenAiChatModel.java:225) ~[spring-ai-openai-1.0.0-M4.jar:1.0.0-M4]
-	at org.springframework.ai.chat.client.DefaultChatClient$DefaultChatClientRequestSpec$1.aroundCall(DefaultChatClient.java:675) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at org.springframework.ai.chat.client.advisor.DefaultAroundAdvisorChain.lambda$nextAroundCall$1(DefaultAroundAdvisorChain.java:98) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at io.micrometer.observation.Observation.observe(Observation.java:564) ~[micrometer-observation-1.14.2.jar:1.14.2]
-	at org.springframework.ai.chat.client.advisor.DefaultAroundAdvisorChain.nextAroundCall(DefaultAroundAdvisorChain.java:98) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.doGetChatResponse(DefaultChatClient.java:488) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.lambda$doGetObservableChatResponse$1(DefaultChatClient.java:477) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at io.micrometer.observation.Observation.observe(Observation.java:564) ~[micrometer-observation-1.14.2.jar:1.14.2]
-	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.doGetObservableChatResponse(DefaultChatClient.java:477) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.doGetChatResponse(DefaultChatClient.java:461) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.content(DefaultChatClient.java:511) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at com.breno.vocabulary.Service.OpenAiChatService.getVocabulary(OpenAiChatService.java:20) ~[classes/:na]
+	at com.breno.vocabulary.Service.OpenAiChatService.getVocabulary(OpenAiChatService.java:19) ~[classes/:na]
 	at com.breno.vocabulary.quartz.ExecuteJob.execute(ExecuteJob.java:32) ~[classes/:na]
 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) ~[quartz-2.3.2.jar:na]
 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) ~[quartz-2.3.2.jar:na]
 
-2025-01-01T20:38:00.928-03:00 ERROR 20232 --- [vocabulary] [schedulerFactoryBean_Worker-1] com.breno.vocabulary.quartz.ExecuteJob   : Error during job execution
+2025-01-02T19:49:01.328-03:00 ERROR 9596 --- [vocabulary] [schedulerFactoryBean_Worker-1] com.breno.vocabulary.quartz.ExecuteJob   : Error during job execution
 
-org.springframework.ai.retry.NonTransientAiException: 404 - {
+org.springframework.ai.retry.NonTransientAiException: 429 - {
     "error": {
-        "message": "The model `gpt-4o` does not exist or you do not have access to it.",
-        "type": "invalid_request_error",
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
         "param": null,
-        "code": "model_not_found"
+        "code": "insufficient_quota"
     }
 }
 
@@ -393,25 +336,125 @@ org.springframework.ai.retry.NonTransientAiException: 404 - {
 	at org.springframework.ai.openai.OpenAiChatModel.lambda$call$3(OpenAiChatModel.java:228) ~[spring-ai-openai-1.0.0-M4.jar:1.0.0-M4]
 	at io.micrometer.observation.Observation.observe(Observation.java:564) ~[micrometer-observation-1.14.2.jar:1.14.2]
 	at org.springframework.ai.openai.OpenAiChatModel.call(OpenAiChatModel.java:225) ~[spring-ai-openai-1.0.0-M4.jar:1.0.0-M4]
-	at org.springframework.ai.chat.client.DefaultChatClient$DefaultChatClientRequestSpec$1.aroundCall(DefaultChatClient.java:675) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at org.springframework.ai.chat.client.advisor.DefaultAroundAdvisorChain.lambda$nextAroundCall$1(DefaultAroundAdvisorChain.java:98) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at io.micrometer.observation.Observation.observe(Observation.java:564) ~[micrometer-observation-1.14.2.jar:1.14.2]
-	at org.springframework.ai.chat.client.advisor.DefaultAroundAdvisorChain.nextAroundCall(DefaultAroundAdvisorChain.java:98) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.doGetChatResponse(DefaultChatClient.java:488) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.lambda$doGetObservableChatResponse$1(DefaultChatClient.java:477) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at io.micrometer.observation.Observation.observe(Observation.java:564) ~[micrometer-observation-1.14.2.jar:1.14.2]
-	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.doGetObservableChatResponse(DefaultChatClient.java:477) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.doGetChatResponse(DefaultChatClient.java:461) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.content(DefaultChatClient.java:511) ~[spring-ai-core-1.0.0-M4.jar:1.0.0-M4]
-	at com.breno.vocabulary.Service.OpenAiChatService.getVocabulary(OpenAiChatService.java:20) ~[classes/:na]
+	at com.breno.vocabulary.Service.OpenAiChatService.getVocabulary(OpenAiChatService.java:19) ~[classes/:na]
 	at com.breno.vocabulary.quartz.ExecuteJob.execute(ExecuteJob.java:32) ~[classes/:na]
 	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) ~[quartz-2.3.2.jar:na]
 	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) ~[quartz-2.3.2.jar:na]
 
-2025-01-01T20:38:19.900-03:00  INFO 20232 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
-2025-01-01T20:38:19.901-03:00  INFO 20232 --- [vocabulary] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-01T20:38:19.903-03:00  INFO 20232 --- [vocabulary] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-01-01T20:38:19.905-03:00  INFO 20232 --- [vocabulary] [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
-2025-01-01T20:38:19.905-03:00  INFO 20232 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
-2025-01-01T20:38:19.905-03:00  INFO 20232 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
-2025-01-01T20:38:19.905-03:00  INFO 20232 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2025-01-02T19:49:07.791-03:00  INFO 9596 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2025-01-02T19:49:07.791-03:00  INFO 9596 --- [vocabulary] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02T19:49:07.793-03:00  INFO 9596 --- [vocabulary] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-02T19:49:07.795-03:00  INFO 9596 --- [vocabulary] [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2025-01-02T19:49:07.795-03:00  INFO 9596 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2025-01-02T19:49:07.795-03:00  INFO 9596 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2025-01-02T19:49:07.795-03:00  INFO 9596 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2025-01-02T19:50:53.023-03:00  INFO 9792 --- [vocabulary] [main] c.b.vocabulary.VocabularyApplication     : Starting VocabularyApplication using Java 17.0.9 with PID 9792 (/home/breno/Documents/portfolio/vocabulary/target/classes started by breno in /home/breno/Documents/portfolio/vocabulary)
+2025-01-02T19:50:53.027-03:00  INFO 9792 --- [vocabulary] [main] c.b.vocabulary.VocabularyApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-01-02T19:50:53.851-03:00  INFO 9792 --- [vocabulary] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-02T19:50:53.867-03:00  INFO 9792 --- [vocabulary] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-02T19:50:53.867-03:00  INFO 9792 --- [vocabulary] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-02T19:50:53.901-03:00  INFO 9792 --- [vocabulary] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-02T19:50:53.901-03:00  INFO 9792 --- [vocabulary] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 686 ms
+2025-01-02T19:50:54.175-03:00  INFO 9792 --- [vocabulary] [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2025-01-02T19:50:54.180-03:00  INFO 9792 --- [vocabulary] [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-01-02T19:50:54.180-03:00  INFO 9792 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2025-01-02T19:50:54.181-03:00  INFO 9792 --- [vocabulary] [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2025-01-02T19:50:54.181-03:00  INFO 9792 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-01-02T19:50:54.181-03:00  INFO 9792 --- [vocabulary] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2025-01-02T19:50:54.181-03:00  INFO 9792 --- [vocabulary] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2025-01-02T19:50:54.181-03:00  INFO 9792 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : JobFactory set to: com.breno.vocabulary.config.QuartzConfig$AutowiringSpringBeanJobFactory@31ab2e0f
+2025-01-02T19:50:54.365-03:00  INFO 9792 --- [vocabulary] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-02T19:50:54.366-03:00  INFO 9792 --- [vocabulary] [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2025-01-02T19:50:54.366-03:00  INFO 9792 --- [vocabulary] [main] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2025-01-02T19:50:54.383-03:00  INFO 9792 --- [vocabulary] [main] c.b.vocabulary.VocabularyApplication     : Started VocabularyApplication in 1.817 seconds (process running for 2.113)
+2025-01-02T19:51:00.004-03:00  INFO 9792 --- [vocabulary] [schedulerFactoryBean_Worker-1] com.breno.vocabulary.quartz.ExecuteJob   : Starting job execution
+2025-01-02T19:51:06.092-03:00  WARN 9792 --- [vocabulary] [schedulerFactoryBean_Worker-1] o.s.a.a.r.SpringAiRetryAutoConfiguration : Retry error. Retry count:1
+
+org.springframework.ai.retry.NonTransientAiException: 429 - {
+    "error": {
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
+        "param": null,
+        "code": "insufficient_quota"
+    }
+}
+
+	at org.springframework.ai.autoconfigure.retry.SpringAiRetryAutoConfiguration$2.handleError(SpringAiRetryAutoConfiguration.java:100) ~[spring-ai-spring-boot-autoconfigure-1.0.0-M4.jar:1.0.0-M4]
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.StatusHandler.lambda$fromErrorHandler$1(StatusHandler.java:71) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.StatusHandler.handle(StatusHandler.java:146) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.applyStatusHandlers(DefaultRestClient.java:826) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.lambda$readBody$4(DefaultRestClient.java:815) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.DefaultRestClient.readWithMessageConverters(DefaultRestClient.java:215) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.readBody(DefaultRestClient.java:814) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.lambda$toEntityInternal$2(DefaultRestClient.java:770) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:574) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchange(DefaultRestClient.java:535) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestClient$RequestHeadersSpec.exchange(RestClient.java:677) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.executeAndExtract(DefaultRestClient.java:809) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.toEntityInternal(DefaultRestClient.java:769) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.toEntity(DefaultRestClient.java:758) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.ai.openai.api.OpenAiApi.chatCompletionEntity(OpenAiApi.java:216) ~[spring-ai-openai-1.0.0-M4.jar:1.0.0-M4]
+	at org.springframework.ai.openai.OpenAiChatModel.lambda$call$1(OpenAiChatModel.java:228) ~[spring-ai-openai-1.0.0-M4.jar:1.0.0-M4]
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:357) ~[spring-retry-2.0.11.jar:na]
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:230) ~[spring-retry-2.0.11.jar:na]
+	at org.springframework.ai.openai.OpenAiChatModel.lambda$call$3(OpenAiChatModel.java:228) ~[spring-ai-openai-1.0.0-M4.jar:1.0.0-M4]
+	at io.micrometer.observation.Observation.observe(Observation.java:564) ~[micrometer-observation-1.14.2.jar:1.14.2]
+	at org.springframework.ai.openai.OpenAiChatModel.call(OpenAiChatModel.java:225) ~[spring-ai-openai-1.0.0-M4.jar:1.0.0-M4]
+	at com.breno.vocabulary.Service.OpenAiChatService.getVocabulary(OpenAiChatService.java:19) ~[classes/:na]
+	at com.breno.vocabulary.quartz.ExecuteJob.execute(ExecuteJob.java:32) ~[classes/:na]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) ~[quartz-2.3.2.jar:na]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) ~[quartz-2.3.2.jar:na]
+
+2025-01-02T19:51:06.094-03:00 ERROR 9792 --- [vocabulary] [schedulerFactoryBean_Worker-1] com.breno.vocabulary.quartz.ExecuteJob   : Error during job execution
+
+org.springframework.ai.retry.NonTransientAiException: 429 - {
+    "error": {
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
+        "param": null,
+        "code": "insufficient_quota"
+    }
+}
+
+	at org.springframework.ai.autoconfigure.retry.SpringAiRetryAutoConfiguration$2.handleError(SpringAiRetryAutoConfiguration.java:100) ~[spring-ai-spring-boot-autoconfigure-1.0.0-M4.jar:1.0.0-M4]
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.StatusHandler.lambda$fromErrorHandler$1(StatusHandler.java:71) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.StatusHandler.handle(StatusHandler.java:146) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.applyStatusHandlers(DefaultRestClient.java:826) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.lambda$readBody$4(DefaultRestClient.java:815) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.DefaultRestClient.readWithMessageConverters(DefaultRestClient.java:215) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.readBody(DefaultRestClient.java:814) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.lambda$toEntityInternal$2(DefaultRestClient.java:770) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:574) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchange(DefaultRestClient.java:535) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestClient$RequestHeadersSpec.exchange(RestClient.java:677) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.executeAndExtract(DefaultRestClient.java:809) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.toEntityInternal(DefaultRestClient.java:769) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.toEntity(DefaultRestClient.java:758) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.ai.openai.api.OpenAiApi.chatCompletionEntity(OpenAiApi.java:216) ~[spring-ai-openai-1.0.0-M4.jar:1.0.0-M4]
+	at org.springframework.ai.openai.OpenAiChatModel.lambda$call$1(OpenAiChatModel.java:228) ~[spring-ai-openai-1.0.0-M4.jar:1.0.0-M4]
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:357) ~[spring-retry-2.0.11.jar:na]
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:230) ~[spring-retry-2.0.11.jar:na]
+	at org.springframework.ai.openai.OpenAiChatModel.lambda$call$3(OpenAiChatModel.java:228) ~[spring-ai-openai-1.0.0-M4.jar:1.0.0-M4]
+	at io.micrometer.observation.Observation.observe(Observation.java:564) ~[micrometer-observation-1.14.2.jar:1.14.2]
+	at org.springframework.ai.openai.OpenAiChatModel.call(OpenAiChatModel.java:225) ~[spring-ai-openai-1.0.0-M4.jar:1.0.0-M4]
+	at com.breno.vocabulary.Service.OpenAiChatService.getVocabulary(OpenAiChatService.java:19) ~[classes/:na]
+	at com.breno.vocabulary.quartz.ExecuteJob.execute(ExecuteJob.java:32) ~[classes/:na]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) ~[quartz-2.3.2.jar:na]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) ~[quartz-2.3.2.jar:na]
+
+2025-01-02T19:51:13.433-03:00  INFO 9792 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2025-01-02T19:51:13.433-03:00  INFO 9792 --- [vocabulary] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-02T19:51:13.435-03:00  INFO 9792 --- [vocabulary] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-02T19:51:13.437-03:00  INFO 9792 --- [vocabulary] [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2025-01-02T19:51:13.437-03:00  INFO 9792 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2025-01-02T19:51:13.437-03:00  INFO 9792 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2025-01-02T19:51:13.437-03:00  INFO 9792 --- [vocabulary] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.

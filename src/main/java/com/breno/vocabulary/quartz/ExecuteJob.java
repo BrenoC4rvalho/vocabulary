@@ -16,11 +16,9 @@ public class ExecuteJob implements Job {
 
     private static final Logger logger = LoggerFactory.getLogger(ExecuteJob.class);
 
-    private final OpenAiChatService openAiChatService;
 
     @Autowired
-    public ExecuteJob(OpenAiChatService openAiChatService){
-        this.openAiChatService = openAiChatService;
+    public ExecuteJob(){
     }
 
     @Override
@@ -29,7 +27,6 @@ public class ExecuteJob implements Job {
 
             logger.info("Starting job execution");
 
-            System.out.println(openAiChatService.getVocabulary());
 
             logger.info("Job executed successfully");
 
